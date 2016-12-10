@@ -1,26 +1,19 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-		<head>
-			<meta charset+"utf-10">
-				<title>Planets of the Universe</title>
-				<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+<html>
 
-		</head>
-		<body>
+    {% include head.html %}
 
-			<header>
-				<strong> Planets of the Unviers</strong>
-				<h1> Planets of the hunivers header </h1>
+    <body>
 
-				{% include  nav.html %}
-			</header>
+    {% include header.html %}
 
-			{{content}}
+    <div class="page-content">
+      <div class="wrap">
+      {{ content }}
+      </div>
+    </div>
 
-			<footer>
-				<p> Some planets footer. </p>
-				{% include  nav.html %}
-			</footer>
+    {% include footer.html %}
 
-	</body>
+    </body>
 </html>
