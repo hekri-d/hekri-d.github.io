@@ -34,8 +34,8 @@ html {
 }
 
 body {
-  color: #3ca2a2;
-  background-color: #21212e;
+  color: #fff;
+  background-color: #1f1a19; <!-- Here the background of the main page is controlled -->
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -177,7 +177,7 @@ tbody tr:nth-child(odd) th {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
-  background-color: #000;
+  background-color: #211f1e;
   overflow: auto;
 }
 @media (min-width: 48em) {
@@ -193,7 +193,7 @@ tbody tr:nth-child(odd) th {
 
 /* Sidebar links */
 .sidebar a {
-  color: #caad00;
+  color: #008080;
 }
 
 /* About section */
@@ -274,7 +274,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #caad00;
+  color: #008080; <!-- Here the title of the post (main page) is changed - this was me -->
 }
 
 /*
