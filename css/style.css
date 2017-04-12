@@ -1,0 +1,39 @@
+body {
+  background-color: #015C6A;
+}
+
+.label-fontz {
+
+font-family: Roboto, serif;
+font-size:18px;
+/*font-weight: bold;*/
+}
+
+
+#inputsDiv {
+
+  background-color: #017A8E;
+  border-width: 8px;
+  border-radius: 4px;
+  border-color: red;
+  margin-top: 10px;
+
+  width: 80%;
+  height: auto;
+
+}
+
+#displayDiv {
+
+  background-color: #017A8E;
+  border-width: 8px;
+  border-radius: 4px;
+  border-color: red;
+  margin-top: -8px;
+
+  width: 80%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 1px;
+
+}
