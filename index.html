@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Tabela 8.14</title>
+
+  <!-- Bootstrap -->
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Bootstrap - END -->
+
+
+  <!-- Google fonts -->
+  <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Roboto">
+
+  <!-- Google fonts - END -->
+
+
+</head>
+
+<body>
+
+
+  <div class="container-fluied">
+
+    <div class="container" style="margin-top:20px;">
+        <button type="button" name="button" id="calculate" class="btn btn-lg btn-primary">Llogarit</button>
+        <button type="button" name="button" id="clear" class="btn btn-lg btn-primary">Fshij</button>
+    </div>
+  </div>
+
+<div class="container-fluid" id="inputsDiv" >
+
+  <!-- <div class="container" id="inputsDiv" > -->
+
+    <p style="font-family: Roboto, serif; font-size:20px; font-style: italic; font-weight: bold;">Të dhënat.</p>
+
+    <div class="container">
+      <form>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label label-fontz">Materiali</label>
+          <div class="col-sm-10">
+            <input type="text"  class="form-control text-boxes" id="materialiInput" placeholder="Materiali">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword3" class="col-sm-2 col-form-label label-fontz">Diametri</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control text-boxes" id="diametriInput" placeholder="Diametri">
+          </div>
+        </div>
+        <fieldset class="form-group row">
+          <legend class="col-form-legend col-sm-4 label-fontz" style="font-style: italic">Menyra e punimit te filetos.</legend>
+          <div class="col-sm-3">
+            <div class="form-check">
+              <label class="form-check-label label-fontz">
+                <input class="form-check-input" type="radio" name="gridRadios" id="eGdhendur" value="option1" checked>
+                Fileto e gdhendur.
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label label-fontz">
+                <input class="form-check-input " type="radio" name="gridRadios" id="eNgjeshur" value="option2">
+                Fileto e ngjeshur.
+              </label>
+            </div>
+      </div>
+    </fieldset>
+
+<!-- <div class="form-group row">
+  <div class="offset-sm-2 col-sm-6">
+    <button type="info" id="llogarit" class="btn btn-primary btn-lg">Llogarit</button>
+  </div>
+</div> -->
+</form>
+</div>
+<!-- </div> -->
+
+
+
+</div>
+
+<!--
+<div id="border" >
+</div> -->
+
+
+<!-- ========================= dislays==================================== -->
+
+<div id="displayDiv" class="container-fluid center">
+
+    <p style="font-family: Roboto, serif; font-size:20px; font-style: italic; font-weight: bold;">Vlerat.</p>
+<!-- <div class="container-fluid" id="cont"> -->
+
+  <div class="form-group row">
+    <label for="example-text-input" class="col-sm-2 col-form-label label-fontz cont"><img src="images/sigmat.png"></label>
+    <div class="col-sm-9">
+      <input class="form-control text-boxes" type="text" value="N/mm2" id="displaySigmaT">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="example-search-input" class="cont col-2 col-form-label label-fontz"><img src="images/taut.png"></label>
+    <div class="col-sm-9">
+      <input class="form-control text-boxes" type="text" value="N/mm2" id="displayTauT">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="example-email-input" class="cont col-2 col-form-label label-fontz"><img src="images/ksit.png"></label>
+    <div class="col-sm-9">
+      <input class="form-control text-boxes" type="text" value="N/mm2" id="displayKsiT">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="example-url-input" class="cont col-2 col-form-label label-fontz"><img src="images/ksi1z.png"></label>
+    <div class="col-sm-9">
+      <input class="form-control text-boxes" type="text" value="N/mm2" id="displayKsi1z">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="example-tel-input" class="cont col-2 col-form-label label-fontz"><img src="images/ksi1t.png"></label>
+    <div class="col-sm-9">
+      <input class="form-control text-boxes" type="tel" value="N/mm2" id="displayKsi1t">
+    </div>
+  </div>
+</div>
+
+
+
+<div class="btn-group">
+    <a href="applications.html" class="btn btn-white btn-default active">
+        <i class="fa fa-cog" aria-hidden="true"></i> Edit
+    </a>
+    <a href="/suspend/1" class="btn btn-default">
+        <i class="fa fa-ban" aria-hidden="true"></i> Suspend
+    </a>
+    <a href="/cancel/1" class="btn btn-default">Cancel</a>
+</div>
+
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+ <!-- ========ME- THIS LOADS JQUERY FROM THE INTERNET. DOWN THERE I'M INCLUDING JQUERY FROM LOCAL FILE (jquery-3.2.1.js) -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="jquery-3.2.1.js"></script>
+<!-- <script type="text/javascript" src="Tabela8-14.js"></script> -->
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
