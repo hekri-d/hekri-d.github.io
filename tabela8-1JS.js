@@ -328,6 +328,10 @@ function displayValues(inp) {
         $("#displayAngle").val(tabela8_1[32][5]);
     }
 
+    else {
+      alert("Nuk ka fileto standarde me ate diameter.")
+    }
+
 
 
 
