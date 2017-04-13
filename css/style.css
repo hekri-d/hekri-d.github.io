@@ -1,5 +1,6 @@
 body {
-  background-color: #015C6A;
+  background-color: #015C6A !important;
+  padding-top: 70px;
 }
 
 .label-fontz {
@@ -49,5 +50,5 @@ font-size:18px;
 }
 
 .text-boxes {
-  
+
 }
