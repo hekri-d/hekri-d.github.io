@@ -50,7 +50,8 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Aplikacione <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="tabela8-14.html">Tabela 8.14</a></li>
-                <li><a href="tabela8-2.html">Tabela 8.2</a></li>
+                <!-- <li><a href="tabela8-2.html">Tabela 8.2</a></li> -->
+              <li><a href="tabela2-1.html">Tabela 2.1</a></li>
                 <li><a href="tabela8-1.html">Tabela 8.1</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="#">Fourth app separated</a></li>
@@ -88,8 +89,8 @@
 
       <div class="container" style="margin-top:20px;">
           <!-- <a href="index.html"> <button type="button" name="button" id="home" class="btn btn-primary" style="margin-left:-40px; background-color:#605F5E; color: black; ">Home</button> </a> -->
-          <button type="button" name="button" id="showValues" class="btn btn-primary" style="margin-left:40px; background-color: FB3640; color: black;">Vlerat</button>
-          <button type="button" name="button" id="clear" class="btn btn-primary"style="width: 90px; background-color: FB3640; color: black">Fshij</button>
+          <button type="button" name="button" id="showValues" class="btn btn-primary" style="margin-left:40px; width:90px; color: black;">Vlerat</button>
+          <button type="button" name="button" id="clear" class="btn btn-primary"style="width: 90px; width: 90px; color: black">Fshij</button>
       </div>
     </div>
 
@@ -104,10 +105,15 @@
           <div class="form-group row">
             <label style="font-weight:normal; font-size:18px;" for="inputEmail3" class="col-sm-2 col-form-label label-fontz">Diametri</label>
             <div class="col-sm-10">
-              <input type="text"  class="form-control text-boxes" id="materialiInput" placeholder="Materiali">
+              <input type="text"  class="form-control text-boxes" id="diametriInput" placeholder="diametri">
             </div>
           </div>
-          <data value="u"></data>
+          <div class="form-group row">
+            <label style="font-weight:normal; font-size:18px;" for="inputEmail3" class="col-sm-2 col-form-label label-fontz">Cilësia</label>
+            <div class="col-sm-10">
+              <input type="text"  class="form-control text-boxes" id="cilesiInput" placeholder="Cilësia">
+            </div>
+          </div>
 
 
   </form>
@@ -123,43 +129,13 @@
 
   <div id="displayDiv" class="container-fluid center" style="margin-top:7px;">
 
-      <p style="font-family: Roboto, serif; font-size:20px; font-style: italic; font-weight: bold;">Vlerat.</p>
+      <p style="font-family: Roboto, serif; font-size:20px; font-style: italic; font-weight: bold;">Vlera.</p>
   <!-- <div class="container-fluid" id="cont"> -->
 
     <div class="form-group row">
-      <label for="example-text-input" class="col-sm-2 col-form-label label-fontz cont"><img src="images/sigmat.png"></label>
+      <label for="example-text-input" class="col-sm-2 col-form-label cont" style=" font-family: Roboto, serif; font-size:18px; font-weight: normal;">Toleranca</label>
       <div class="col-sm-9">
-        <input class="form-control text-boxes" type="text" value="N/mm2" id="displaySigmaT">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-text-input" class="cont col-sm-2 col-form-label label-fontz"><img src="images/taut.png"></label>
-      <div class="col-sm-9">
-        <input class="form-control text-boxes" type="text" value="N/mm2" id="displayTauT">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-email-input" class="cont col-sm-2 col-form-label label-fontz"><img src="images/ksit.png"></label>
-      <div class="col-sm-9">
-        <input class="form-control text-boxes" type="text" value="N/mm2" id="displayKsiT">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-url-input" class="cont col-sm-2 col-form-label label-fontz"><img src="images/ksi1z.png"></label>
-      <div class="col-sm-9">
-        <input class="form-control text-boxes" type="text" value="N/mm2" id="displayKsi1z">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-tel-input" class="cont col-sm-2 col-form-label label-fontz"><img src="images/ksi1t.png"></label>
-      <div class="col-sm-9">
-        <input class="form-control text-boxes" type="tel" value="N/mm2" id="displayKsi1t">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-tel-input" class="cont col-sm-2 col-form-label label-fontz"><img src="images/ksi1t.png"></label>
-      <div class="col-sm-9">
-        <input class="form-control text-boxes" type="tel" value="N/mm2" id="displayKsi1t">
+        <input class="form-control text-boxes" type="text" value="micrometra" id="displayTolerance">
       </div>
     </div>
   </div>
@@ -170,8 +146,8 @@
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script type="text/javascript" src="tabela8-14JS.js"></script>
+<script type="text/javascript" src="tabela2-1JS.js"></script>
 </body>
