@@ -4,11 +4,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Tabela 8.1</title>
+  <title>Tabela 8.2</title>
 
   <!-- Bootstrap -->
   <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -38,7 +38,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">hekri-d</a>
+          <a class="navbar-brand" href="../index.html">hekri-d</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -49,14 +49,14 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Aplikacione <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="tabela8-14.html">Tabela 8.14</a></li>
+                <li><a href="../html/tabela8-14.html">Tabela 8.14</a></li>
                 <!-- <li><a href="tabela8-2.html">Tabela 8.2</a></li> -->
-              <li><a href="tabela2-1.html">Tabela 2.1</a></li>
-                <li><a href="tabela8-1.html">Tabela 8.1</a></li>
+              <li><a href="../html/tabela2-1.html">Tabela 2.1</a></li>
+                <li><a href="../html/tabela8-1.html">Tabela 8.1</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="#">Fourth app separated</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="applications.html">Apps linked here</a></li>
+                <li><a href="../html/applications.html">Apps linked here</a></li>
               </ul>
             </li>
           </ul>
@@ -85,14 +85,16 @@
     </nav>
 
 
-    <div class="container-fluied">
+  <div class="container-fluied">
 
-      <div class="container" style="margin-top:20px;">
-          <!-- <a href="index.html"> <button type="button" name="button" id="home" class="btn btn-primary" style="margin-left:-40px; background-color:#605F5E; color: black; ">Home</button> </a> -->
-          <button type="button" name="button" id="showValues" class="btn btn-primary" style="width: 90px; margin-left:40px; color: black;">Vlerat</button>
-          <button type="button" name="button" id="clear" class="btn btn-primary" style="width: 90px; width: 90px; color: black">Fshij</button>
-      </div>
+    <div class="container" style="margin-top:20px; background-color:#009999; border-width: 4px; border-radius:4px;
+                padding-top:5px; padding-bottom:5px; ">
+        <!-- <a href="index.html"> <button type="button" name="button" id="home" class="btn btn-primary" style="margin-left:-40px; background-color:#605F5E; color: black; ">Home</button> </a> -->
+        <button type="button" name="button" id="showValues" class="btn btn-primary" style="width: 90px; margin-left:40px;  color: black;">Llogarit</button>
+        <button type="button" name="button" id="clear" class="btn btn-primary"style="width: 90px; color: black">Fshij</button>
+        <button type="button" name="button" id="info" class="btn btn-info pull-right"style="width: 90px; color: black">Info</button>
     </div>
+
 
   <div class="container-fluid" id="inputsDiv" >
 
@@ -108,7 +110,12 @@
               <input type="text"  class="form-control text-boxes" id="diametriInput" placeholder="diametri">
             </div>
           </div>
-          <data value="u"></data>
+          <div class="form-group row">
+            <label style="font-weight:normal; font-size:18px;" for="inputEmail3" class="col-sm-2 col-form-label label-fontz">Cilësia</label>
+            <div class="col-sm-10">
+              <input type="text"  class="form-control text-boxes" id="cilesiInput" placeholder="Cilësia">
+            </div>
+          </div>
 
 
   </form>
@@ -124,43 +131,13 @@
 
   <div id="displayDiv" class="container-fluid center" style="margin-top:7px;">
 
-      <p style="font-family: Roboto, serif; font-size:20px; font-style: italic; font-weight: bold;">Vlerat.</p>
+      <p style="font-family: Roboto, serif; font-size:20px; font-style: italic; font-weight: bold;">Vlera.</p>
   <!-- <div class="container-fluid" id="cont"> -->
 
     <div class="form-group row">
-      <label for="example-text-input" class="col-sm-2 col-form-label label-fontz cont">Hapi (P)</label>
+      <label for="example-text-input" class="col-sm-2 col-form-label cont" style=" font-family: Roboto, serif; font-size:18px; font-weight: normal;">Toleranca</label>
       <div class="col-sm-9">
-        <input class="form-control text-boxes" type="text" value="mm" id="displayStep">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-text-input" class="cont col-sm-2 col-form-label label-fontz">Diametri (d2=D2)</label>
-      <div class="col-sm-9">
-        <input class="form-control text-boxes" type="text" value="mm" id="displayDiameter2">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-email-input" class="cont col-sm-2 col-form-label label-fontz">D1</label>
-      <div class="col-sm-9">
-        <input class="form-control text-boxes" type="text" value="N/mm2" id="displayDiameter1">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-url-input" class="cont col-sm-2 col-form-label label-fontz">Hapesira</label>
-      <div class="col-sm-9">
-        <input class="form-control text-boxes" type="text" value="mm" id="displaySpace">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-tel-input" class="cont col-sm-2 col-form-label label-fontz">Prerja terthore (A1)</label>
-      <div class="col-sm-9">
-        <input class="form-control text-boxes" type="tel" value="mm2" id="displayCrossSection">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-tel-input" class="cont col-sm-2 col-form-label label-fontz"><img src="images/ksi1t.png"></label>
-      <div class="col-sm-9">
-        <input class="form-control text-boxes" type="tel" value="degrees" id="displayAngle">
+        <input class="form-control text-boxes" type="text" value="micrometra" id="displayTolerance">
       </div>
     </div>
   </div>
@@ -173,7 +150,6 @@
 
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
 
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script type="text/javascript" src="tabela8-1JS.js"></script>
+<script type="text/javascript" src="../js/tabela2-1JS.js"></script>
 </body>

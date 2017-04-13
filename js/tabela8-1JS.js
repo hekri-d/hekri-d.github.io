@@ -53,8 +53,14 @@ var tabela8_1 = [[0.2, 0.670, 0.555, 0.108, 0.241, 5.46],
               var diam = $("#diametriInput").val();
 
               displayValues(diam);
-              console.log("called with:",diam);
-            } );
+              // console.log("called with:",diam);
+
+            });
+
+        $("#info").click(function(){
+            window.open("../html/info.html", "Info", 'window settings');
+                return false;
+            });
 
          });
 

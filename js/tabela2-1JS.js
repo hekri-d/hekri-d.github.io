@@ -32,7 +32,7 @@ var tabela2_1 = [   [ 0.3, 0.4, 0.4, 0.5, 0.6, 0.6, 0.8, 1, 1.2, 2, 2.5, 3, 5],
                   var quality = $("#cilesiInput").val();
 
                   getValues(quality, diame);
-                  
+
                 });
 
 
