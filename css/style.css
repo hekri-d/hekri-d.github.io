@@ -68,3 +68,8 @@ margin-left: 150px;
 background: #009999;
 border-radius: 4px;
 }
+
+.navbar-font{
+font-family: Roboto, serif;
+font-size:20px;
+}

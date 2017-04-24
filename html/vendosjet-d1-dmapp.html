@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Tabela 8.14</title>
+
+  <!-- Bootstrap -->
+  <link href="../css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Bootstrap - END -->
+
+
+  <!-- Google fonts -->
+  <link rel="stylesheet" type="text/css"
+  href="https://fonts.googleapis.com/css?family=Roboto">
+
+  <!-- Google fonts - END -->
+
+
+</head>
+
+<body>
+
+
+
+  <div class="container-fluied">
+
+    <div class="container" style="margin-top:20px; background-color:#009999; border-width: 4px; border-radius:4px;
+    padding-top:5px; padding-bottom:5px; ">
+    <!-- <a href="index.html"> <button type="button" name="button" id="home" class="btn btn-primary" style="margin-left:-40px; background-color:#605F5E; color: black; ">Home</button> </a> -->
+    <button type="button" name="button" id="calculate" class="btn btn-primary" style="width: 90px; margin-left:40px;  color: black;">Llogarit</button>
+    <button type="button" name="button" id="clear" class="btn btn-primary"style="width: 90px; color: black">Fshij</button>
+    <button type="button" name="button" id="info" class="btn btn-info pull-right"style="width: 90px; color: black">Info</button>
+  </div>
+
+</div>
+
+<div class="container-fluid" id="inputsDiv" >
+
+
+  <p style="font-family: Roboto, serif; font-size:20px; font-style: italic; font-weight: bold;">Të dhënat.</p>
+
+  <div class="container">
+    <form class="form-group row" >
+
+      <label style="font-weight:normal; font-size:18px;" for="inputEmail3" class="col-sm-2 col-form-label label-fontz">Vendosja</label>
+      <div class="col-sm-2">
+        <input type="text"  class="form-control text-boxes" id="materialiInput" placeholder="Materiali">
+
+      </div>
+
+      <div class="col-sm-2">
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Vrima
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">A</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">B</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">C</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">D</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">E</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">F</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">G</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">H</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">I</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">J</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">K</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">M</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">N</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">P</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">R</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">S</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">T</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">U</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">V</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">X</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Y</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Z</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ZA</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ZB</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ZC</a></li>
+              <li role="presentation" class="divider"></li>
+              <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li> -->
+            </ul>
+          </div>
+
+        </div>
+
+
+      <div class="col-sm-2">
+        <div class="spinbox">
+          <input type="text" name="cilesiaz" value="8" class="form-control input-mini spinibox-input">            
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">1</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">3</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">4</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">5</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">6</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">7</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">8</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">9</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">10</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">11</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">12</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">13</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">14</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">15</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">16</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">17</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">18</a></li>
+              <li role="presentation" class="divider"></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+            </ul>
+          </div>
+
+          </div>
+
+      <div class="col-sm-2">
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Tutorials
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+              </ul>
+            </div>
+
+
+          </div>
+
+
+
+      <div class="col-sm-2">
+
+
+      <div class="col-sm-2">
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Tutorials
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+
+
+
+          </form>
+
+        </div>
+
+        <div class="container">
+          <form>
+            <div class="form-group row">
+              <label style="font-weight:normal; font-size:18px;" for="inputEmail3" class="col-sm-2 col-form-label label-fontz">Materiali</label>
+              <div class="col-sm-10">
+                <input type="text"  class="form-control text-boxes" id="materialiInput" placeholder="Materiali">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label style="font-weight:normal; font-size:18px;" for="inputPassword3" class="col-sm-2 col-form-label label-fontz">Diametri</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control text-boxes" id="diametriInput" placeholder="Diametri">
+              </div>
+            </div>
+            <fieldset style="margin-top: 20px;" class="form-group row">
+
+              <p class="col-form-legend col-sm-2 label-fontz" style="font-style: italic;">Menyra e punimit te filetos. </p>
+
+              <div class="col-sm-4">
+                <div  class="form-check col-sm-6">
+                  <label style="font-weight:normal; font-size:18px;" class="form-check-label label-fontz">
+                    <input  class="form-check-input" type="radio" name="gridRadios" id="eGdhendur" value="option1" checked>
+                    Fileto e gdhendur.
+                  </label>
+                </div>
+                <div class="form-check col-sm-6">
+                  <label style="font-weight:normal; font-size:18px;" class="form-check-label label-fontz">
+                    <input class="form-check-input " type="radio" name="gridRadios" id="eNgjeshur" value="option2">
+                    Fileto e ngjeshur.
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+
+
+          </form>
+        </div>
+
+
+
+
+      </div>
+
+
+      <!-- ========================= dislays==================================== -->
+
+      <div id="displayDiv" class="container-fluid center" style="margin-top:7px;">
+
+        <p style="font-family: Roboto, serif; font-size:20px; font-style: italic; font-weight: bold;">Vlerat.</p>
+        <!-- <div class="container-fluid" id="cont"> -->
+
+        <div class="form-group row">
+          <label for="example-text-input" class="col-sm-2 col-form-label label-fontz cont"><img src="../images/sigmat.png"></label>
+          <div class="col-sm-9">
+            <input class="form-control text-boxes" type="text" value="N/mm2" id="displaySigmaT">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="example-text-input" class="cont col-sm-2 col-form-label label-fontz"><img src="../images/taut.png"></label>
+          <div class="col-sm-9">
+            <input class="form-control text-boxes" type="text" value="N/mm2" id="displayTauT">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="example-email-input" class="cont col-sm-2 col-form-label label-fontz"><img src="../images/ksit.png"></label>
+          <div class="col-sm-9">
+            <input class="form-control text-boxes" type="text" value="N/mm2" id="displayKsiT">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="example-url-input" class="cont col-sm-2 col-form-label label-fontz"><img src="../images/ksi1z.png"></label>
+          <div class="col-sm-9">
+            <input class="form-control text-boxes" type="text" value="N/mm2" id="displayKsi1z">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="example-tel-input" class="cont col-sm-2 col-form-label label-fontz"><img src="../images/ksi1t.png"></label>
+          <div class="col-sm-9">
+            <input class="form-control text-boxes" type="tel" value="N/mm2" id="displayKsi1t">
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+      <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script type="text/javascript" src="../js/tabela8-14JS.js"></script>
+    </body>
+    </html>
